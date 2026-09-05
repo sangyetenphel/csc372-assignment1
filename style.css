@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    margin:20px;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    margin-left: 500px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(73, 133, 231);
+    margin-left: 50px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    color: #A4A400;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 10px;
+    background-color: #FFFFA8;
+}
+
+.testimonial {
+    font-weight: bold;
+}
+
+#event-image {
+    height: 500px;
+    width: 100%;
+}
+
+article {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul li::marker {
+    content: "⭐";
+    font-size: 1rem;
+}
